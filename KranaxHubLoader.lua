@@ -51,8 +51,8 @@ menuButton.MouseButton1Click:Connect(function()
 	mainContainer.Visible = not mainContainer.Visible
 end)
 
-menuButton.AnchorPoint = Vector2.new(1, 0.5)
-menuButton.Position = UDim2.new(1, 0, 0.972, 0)
+menuButton.AnchorPoint = Vector2.new(1, 1)
+menuButton.Position = UDim2.new(1, 0, 1, 0)
 menuButton.Size = UDim2.new(0.12, 0, 0.061, 0)
 menuButton.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
 menuButton.TextColor3 = Color3.fromRGB(117, 117, 117)
