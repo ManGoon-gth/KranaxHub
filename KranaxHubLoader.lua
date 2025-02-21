@@ -1,8 +1,5 @@
 local Players = game:GetService("Players")
 local plr = Players.LocalPlayer
-local useCoreGui = false
-
-local GUIContainer = game.CoreGui and useCoreGui or plr.PlayerGui
 
 --Main Instances--
 local screenGui = Instance.new("ScreenGui")
@@ -26,7 +23,7 @@ local HubTitle = Instance.new("TextLabel", Topbar)
 
 --KranaxGUI Code--
 screenGui.Name = "KranaxHUB"
-screenGui.Parent = GUIContainer
+screenGui.Parent = game.CoreGui
 screenGui.IgnoreGuiInset = true
 
 --Layout Code--
